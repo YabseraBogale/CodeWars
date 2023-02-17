@@ -14,6 +14,8 @@ def biggest_string_order_bigger(n):
     lst=split_num(n)
     print(lst.reverse())
     num=list_tonum(lst)
+    if num<n:
+		return -1
     return num
 
 
